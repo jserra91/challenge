@@ -1,16 +1,16 @@
 <template>
 	<div>
-    <Introduction />
+    <UpcomingPage />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Introduction from '@/components/Introduction.vue'
+import UpcomingPage from '@/components/pages/UpcomingPage/UpcomingPage.vue'
 
 export default Vue.extend({
   components: {
-    Introduction,
+    UpcomingPage,
   }
 })
 </script>

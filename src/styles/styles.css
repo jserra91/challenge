@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-carbon-100: #C0C3C7;
+  --color-carbon-200: #878E97;
+  --color-carbon-300: #4B5159;
+  --color-carbon-400: #363C44;
+  --color-carbon-500: #2B3037;
+  --color-carbon-600: #262B32;
+  --color-carbon-700: #20252C;
+  --color-carbon-800: #1D2229;
+  --color-carbon-900: #1B1F26;
+  --color-purple-100: #B4B1FF;
+  --color-purple-200: #8480FF;
+  --color-purple-300: #736FFF;
+  --color-purple-400: #6762FF;
+  --color-purple-500: #5D57FF;
+  --color-purple-600: #5853EB;
+  --color-purple-700: #534FD7;
+  --color-purple-800: #504DCD;
+  --color-purple-900: #4B49B9;
+}
+
+body {
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: var(--color-carbon-800);
+  color: var(--color-carbon-200);
+}
